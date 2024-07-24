@@ -6,8 +6,9 @@
 }
 
 .todolist-container {
-position: relative;
   max-width: 500px;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   color: #6e6e6dff;
   padding: 20px;
@@ -46,9 +47,7 @@ position: relative;
 .add-icon {
   width: 80px;
   height: 80px;
-  bottom: -50px;
-  right: 43%;
-  position: absolute;
+  margin: 0 auto;
   cursor: pointer;
 }
 
@@ -62,8 +61,6 @@ position: relative;
   padding: 10px;
   border: 1px solid #3f3f3f;
 }
-
-
 
 .todo-item .task {
   font-size: 18px;

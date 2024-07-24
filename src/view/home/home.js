@@ -76,7 +76,6 @@ function Home() {
             <option value="Movie">Movie</option>
             <option value="Other">Other</option>
           </select>
-          
         </div>
         <div className="item-container">
           {" "}
@@ -90,11 +89,11 @@ function Home() {
           ))}
         </div>
         <img
-            src={"https://cdn-icons-png.flaticon.com/512/4601/4601618.png"}
-            alt="add-btn"
-            className="add-icon"
-            onClick={addTasks}
-          />
+          src={"https://cdn-icons-png.flaticon.com/512/4601/4601618.png"}
+          alt="add-btn"
+          className="add-icon"
+          onClick={addTasks}
+        />
       </div>
       <Toaster />
     </div>
